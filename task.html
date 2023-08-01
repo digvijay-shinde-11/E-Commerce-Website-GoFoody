@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #sidebar {
+      width: 200px;
+      height: 100vh;
+      background-color: #f2f2f2;
+      float: left;
+    }
+    #sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    #sidebar ul li {
+      padding: 10px;
+      cursor: pointer;
+    }
+    #content {
+      margin-left: 200px;
+      padding: 20px;
+    }
+
+    #home-content {
+      display: none;
+    }
+    #contact-content {
+      display: none;
+    }
+    #info-content {
+      display: none;
+    }
+    #guide-content {
+      display: none;
+    }
+  </style>
+
+  <script>
+    function showContent(contentId) {
+      var contents = ["home-content", "contact-content", "info-content", "guide-content"];
+      for (var i = 0; i < contents.length; i++) {
+        var content = document.getElementById(contents[i]);
+        if (contentId === contents[i]) {
+          content.style.display = "block";
+        } else {
+          content.style.display = "none";
+        }
+      }
+    }
+  </script>
+
+
+
+</head>
+<body>
+ <div id="sidebar">
+    <ul>
+      <li onclick="showContent('home-content')">Home</li>
+      <li onclick="showContent('contact-content')">Contact</li>
+      <li onclick="showContent('info-content')">Information</li>
+      <li onclick="showContent('guide-content')">Guide</li>
+    </ul>
+  </div>
+  <div id="content">
+    <div id="home-content">
+      <h1>Welcome to the Home Page</h1>
+      <p>This is the home page content.</p>
+    </div>
+    <div id="contact-content">
+      <h1>Contact Information</h1>
+      <p>This is the contact page content.</p>
+    </div>
+    <div id="info-content">
+      <h1>Information</h1>
+      <p>This is the information page content.</p>
+    </div>
+    <div id="guide-content">
+      <h1>Guide</h1>
+      <p>This is the guide page content.</p>
+    </div>
+  </div>
+
+
+</body>
+</html>
