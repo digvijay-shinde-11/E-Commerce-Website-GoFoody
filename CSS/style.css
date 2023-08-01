@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Domine:wght@500&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+    font-family:'Ubuntu' ;
+    font-size: 18px;
+    background-color: aliceblue;
+    
+}
+
+
+.me-2{
+    width: 577px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+.card {
+    display: inline-block;
+    width: 100%;
+}
+
+.card-item{
+    display: inline-block;
+}
+
+.helper{
+    width: 100%;
+    border: 2px solid grey;
+    /* background-color: dimgray; */
+    /* background-color: darkgrey; */
+    background-color: white;
+    color: black;
+    font-size: large;
+    
+    
+}
+
+
+
+.sandwich{
+    margin-top: 10px;
+    padding-left: 30px;
+    border-radius: 190px;
+}
+.burger{
+margin-top: 10px;
+    padding-left: 30px;
+    border-radius: 190px;
+
+}
+.pizza{
+    margin-top: 10px;
+    padding-left: 30px;
+    border-radius: 190px;
+
+}
+
+.lines{
+    padding-left: 175px;
+}
+
+
+.nav-item_icon{
+    position: relative;
+    left: 27px;
+    top: 6px;
+}
+
+
+a{
+        text-decoration: none;
+        color:black;
+}
+
+
+.nav-link_icon{
+        position: relative;
+    top: 2px;
+}

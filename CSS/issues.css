@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    
+}
+
+
+.text1{
+    width: 557px;
+    border-radius: 39px;
+    height: 144px;
+}
+
+p{
+    padding-left: 17px;
+   
+}
+
+.box{
+    padding-left: 18px;
+}
+
+.submit_demo{
+    width: 78px;
+    height: 43px;
+        border-radius: 38px;
+        color: white;
+        background: lightseagreen;
+        position: relative;
+        left: 20px;
+}
+
+.submit_demo:hover{
+    
+    background-color:blue;
+}
